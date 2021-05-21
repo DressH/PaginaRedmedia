@@ -60,7 +60,7 @@ var video = document.querySelectorAll('video')
 
 video.forEach(play => play.addEventListener('click',()=>{
 
-play.classList.toggle('active');
+ play.classList.toggle('active');
 
 if (play.paused) {
     play.play();
@@ -68,7 +68,7 @@ if (play.paused) {
     play.pause();
     play.currentTime = 0;
 }
-}));
+})); 
 
 
 //menu 
